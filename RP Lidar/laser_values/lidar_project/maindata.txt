@@ -1,0 +1,161 @@
+    1  python3 Helloworld.py
+    2  python3 readfromfile.py
+    3  cd Downloads/
+    4  ls
+    5  tar -xzf pycharm-community-2019.3.tar.gz 
+    6  cd pycharm-community-2019.3/
+    7  cd bin/
+    8  sh pycharm.sh
+    9  sudo apt install python3.8.0
+   10  sudo apt install python3.8
+   11  python3 -- version
+   12  python3 --version
+   13  ls
+   14  cd Downloads/
+   15  ls
+   16  tar -xf Python-3.8.0.tar.xz
+   17  python3 --version
+   18  cd ..
+   19  cd -
+   20  pwd
+   21  whoami
+   22  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   23  sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+   24  curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
+   25  sudo apt update
+   26  sudo apt install ros-melodic-desktop-full
+   27  sudo apt install ros-melodic-PACKAGE
+   28  sudo rosdep init
+   29  rosdep update
+   30  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   31  source ~/.bashrc
+   32  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   33  source /opt/ros/melodic/setup.bash
+   34  echo "source /opt/ros/melodic/setup.zsh" >> ~/.zshrc
+   35  source ~/.zshrc
+   36  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   37  sudo apt-get install python-rosinstall
+   38  /home/sevanthgh/PycharmProjects/scripts_python/Helloworld.py
+   39  sudo apt-get install python-rosinstall
+   40  sudo apt-get install python3-rosinstall
+   41  sudo pip install -U rosinstall
+   42  sudo apt-get install python3-rosinstall
+   43  sudo rosdep init
+   44  rosdep update
+   45  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   46  source ~/.bashrc
+   47  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   48  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   49  source ~/.bashrc
+   50  source /opt/ros/melodic/setup.bash
+   51  echo "source /opt/ros/melodic/setup.zsh" >> ~/.zshrc
+   52  source ~/.zshrc
+   53  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   54  source /opt/ros/melodic/setup.bash
+   55  mkdir -p ~/catkin_ws/src
+   56  cd ~/catkin_ws/
+   57  catkin_make
+   58  catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.8m -DPYTHON_LIBRARY=/usr/lib/libpython3.8m.so
+   59  catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
+   60  cd ..
+   61  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   62  locate catkin_pkg
+   63  cd catkin_ws/
+   64  catkin_init_workspace
+   65  catkin?make
+   66  catkin_make
+   67  cd drc
+   68  cd src
+   69  catkin_init_workspace
+   70  catkin_make
+   71  cd ..
+   72  catkin_make
+   73  cd
+   74  mkdir -p ~/catkin_#ws/src
+   75  mkdir -p ~/catkin_ws/src
+   76  cd catkin_ws/
+   77  catkin_init_workspace
+   78  cd
+   79  mkdir -p ~/catkin_ws/src
+   80  cd catkin_ws/src/
+   81  catkin_init_workspace
+   82  git clone https://github.com/robopeak/rplidar_ros.git
+   83  cd ~/catkin_ws/
+   84  catkin_make
+   85  source devel/setup.bash
+   86  roslaunch rplidar_ros view_rplidar.launch
+   87  sudo chmod 777 /dev/ttyUSB0
+   88  cd src && catkin_create_pkg laser_values rospy
+   89  cd laser_values/
+   90  mkdir launch
+   91  roslaunch rplidar_ros view_rplidar.launch
+   92  history
+   93  sudo chmod 777 /dev/ttyUSB0
+   94  roslaunch rplidar_ros view_rplidar.launch
+   95  history
+   96  roslaunch rplidar_ros view_rplidar.launch
+   97  sudo chmod 777 /dev/ttyUSB0
+   98  roslaunch rplidar_ros view_rplidar.launch
+   99  history
+  100  sudo chmod 777 /dev/ttyUSB0
+  101  roslaunch rplidar_ros view_rplidar.launch
+  102  sudo chmod 777 /dev/ttyUSB0
+  103  roslaunch rplidar_ros view_rplidar.launch
+  104  sudo chmod 777 /dev/ttyUSB0
+  105  roslaunch rplidar_ros view_rplidar.launch
+  106  sudo chmod 777 /dev/ttyUSB0
+  107  roslaunch rplidar_ros view_rplidar.launch
+  108  sudo chmod 777 /dev/ttyUSB0
+  109  roslaunch rplidar_ros view_rplidar.launch
+  110  sudo chmod 777 /dev/ttyUSB0
+  111  roslaunch rplidar_ros view_rplidar.launch
+  112  sudo chmod 777 /dev/ttyUSB0
+  113  roslaunch rplidar_ros view_rplidar.launch
+  114  sudo chmod 777 /dev/ttyUSB0
+  115  roslaunch rplidar_ros view_rplidar.launch
+  116  sudo chmod 777 /dev/ttyUSB0
+  117  roslaunch rplidar_ros view_rplidar.launch
+  118  sudo chmod 777 /dev/ttyUSB0
+  119  roslaunch rplidar_ros view_rplidar.launch
+  120  sudo chmod 777 /dev/ttyUSB0
+  121  roslaunch rplidar_ros view_rplidar.launch
+  122  sudo chmod 777 /dev/ttyUSB0
+  123  roslaunch rplidar_ros view_rplidar.launch
+  124  sudo chmod 777 /dev/ttyUSB0
+  125  roslaunch rplidar_ros view_rplidar.launch
+  126  sudo chmod 777 /dev/ttyUSB0
+  127  roslaunch rplidar_ros view_rplidar.launch
+  128  sudo chmod 777 /dev/ttyUSB0
+  129  roslaunch rplidar_ros view_rplidar.launch
+  130  history
+  131  roslaunch rplidar_ros view_rplidar.launch
+  132  sudo chmod 777 /dev/ttyUSB0
+  133  roslaunch rplidar_ros view_rplidar.launch
+  134  sudo chmod 777 /dev/ttyUSB0
+  135  roslaunch rplidar_ros view_rplidar.launch
+  136  history
+  137  sudo chmod 777 /dev/ttyUSB0
+  138  roslaunch rplidar_ros view_rplidar.launch
+  139  sudo chmod 777 /dev/ttyUSB0
+  140  roslaunch rplidar_ros view_rplidar.launch
+  141  sudo chmod 777 /dev/ttyUSB0
+  142  roslaunch rplidar_ros view_rplidar.launch
+  143  sudo chmod 777 /dev/ttyUSB0
+  144  roslaunch rplidar_ros view_rplidar.launch
+  145  sudo chmod 777 /dev/ttyUSB0
+  146  roslaunch rplidar_ros view_rplidar.launch
+  147  sudo chmod 777 /dev/ttyUSB0
+  148  roslaunch rplidar_ros view_rplidar.launch
+  149  sudo chmod 777 /dev/ttyUSB0
+  150  roslaunch rplidar_ros view_rplidar.launch
+  151  sudo chmod 777 /dev/ttyUSB0
+  152  roslaunch rplidar_ros view_rplidar.launch
+  153  sudo chmod 777 /dev/ttyUSB0
+  154  roslaunch rplidar_ros view_rplidar.launch
+  155  sudo chmod 777 /dev/ttyUSB0
+  156  roslaunch rplidar_ros view_rplidar.launch
+  157  sudo chmod 777 /dev/ttyUSB0
+  158  roslaunch rplidar_ros view_rplidar.launch
+  159  sudo chmod 777 /dev/ttyUSB0
+  160  roslaunch rplidar_ros view_rplidar.launch
+  161  history >> maindata.txt
