@@ -2,6 +2,8 @@
 
 - RP Lidar
 
-using RP Lidar dimentions and distance of the obstacle is measured.
+    -- using RP Lidar dimentions and distance of the obstacle is measured.
 
-main code file scan.py
+main files responsible for this are RP Lidar code programe file is scan.py
+
+____________________________________________________________________________________________________________________________________________________________________
